@@ -1,8 +1,30 @@
 aid: transcarent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transcarent.png
 name: Transcarent
-description: Transcarent is a company surfaced as a portfolio company of general-catalyst, threshold-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Transcarent is a health and care experience company serving self-insured
+  employers, health plans, and government and labor union clients. Its
+  consumer-facing platform, WayFinding, combines generative AI agents with
+  instant access to human health guides and clinicians to deliver benefits
+  navigation, clinical guidance, virtual primary and specialty care, pharmacy
+  care, surgery care, cancer care, weight-health programs, and 2nd.MD second
+  opinions in a single experience. The platform is built on an API-first,
+  cloud-native architecture with pre-built HL7 FHIR and EDI connectors that
+  integrate with existing eligibility files and medical, pharmacy, and
+  point-solution benefits. Transcarent exposes these integrations to enterprise
+  partners rather than through a public self-serve developer API or
+  documentation portal.
 url: https://raw.githubusercontent.com/api-evangelist/transcarent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Healthcare
+- Digital Health
+- Benefits Navigation
+- Care Navigation
+- Virtual Care
+- Artificial Intelligence
+- Health Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +54,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://transcarent.ai/
+  url: https://transcarent.com/
+- type: Blog
+  url: https://transcarent.com/blog
+- type: Support
+  url: https://transcarent.com/resources-supporthub
+- type: Login
+  url: https://webapp.transcarent.ai/
+- type: TermsOfService
+  url: https://transcarent.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://transcarent.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/transcarent
+- type: StatusPage
+  url: https://status.transcarent.com/
+- type: DomainSecurity
+  url: security/transcarent-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
