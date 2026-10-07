@@ -64,6 +64,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://transcarent.com/health-plans
+- type: Plans
+  url: plans/transcarent-plans-pricing.yml
 - type: Website
   url: https://transcarent.com/
 - type: Blog
